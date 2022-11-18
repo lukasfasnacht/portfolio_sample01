@@ -1,20 +1,13 @@
-@media only screen and (min-widht: 970px) {
-  .square {
-    width: 48px;
-    margin: 1%;
-    height: 600px;
-  }
-}
-
 body{
   transition: 0.3s;
   margin: 0;
   padding: 0;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(233, 233, 233)
 }
 
 .main {
   height: 80vh;
+  margin: 50px;
 }
 
 .main-text {
@@ -32,7 +25,7 @@ header {
   width: 98%;
   margin: 1%;
   height: 350px;
-  background-color: aquamarine;
+  background-color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -87,3 +80,10 @@ header {
   left: 45px;
 }
 
+@media only screen and (min-width: 970px) {
+  .square{
+    width: 48%;
+    margin: 1%;
+    height: 600px;
+  }
+}
